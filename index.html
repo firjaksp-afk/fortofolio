@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rem Folio</title>
+    <link rel="stylesheet" href="fortofolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <button class="toggle-btn" id="toggleBtn" aria-label="Toggle Navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="logo"><span>Rem</span>Folio</div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+    
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="#home" class="active"><i class="fas fa-home"></i> <span>Home</span></a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> <span>About</span></a></li>
+            <li><a href="#education"><i class="fas fa-school"></i> <span>Education</span></a></li>
+            <li><a href="#skill"><i class="fas fa-tools"></i> <span>Skill</span></a></li>
+            <li><a href="#projects"><i class="fas fa-code"></i> <span>Projects</span></a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+    </div>
+
+    <div class="main-content" id="mainContent">
+        
+        <section id="home">
+            <div class="hero-wrapper">
+                <div class="content">
+                    <h3 class="cyan-text">Haloo everyone, aku</h3>
+                    <h1>Firja Aulia <span class="cyan-text">Kus Endang</span></h1>
+                    <p>Mahasiswa Informatika | Beginner Programmer</p>
+                    <a href="#contact" class="btn">Contact me</a>
+                </div>
+                <div class="image-box">
+                    <img src="/aset/pp.png" alt="Hero Image">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>Yahooo ! Perkenalkan namaku Firja Aulia Kus Endang. Panggil saja aku Firja. 
+                        Aku merupakan seorang mahasiswa yang baru saja terjun ke dunia programmer.
+                        Alasanku terjun ke bidang ini, itu karena aku sangat tertarik dengan dunia digital sejak aku kecil.
+                        Dari dulu, cita citaku menjadi seorang yang sangat mahir dibidang ini.
+                    </p> 
+                    <p>Untuk sekarang, aku masih fokus mempelajari dasar-dasar coding, arsitektur website, dan logika pemrograman.
+                        Tujuan utamaku saat ini adalah menjadi web developer, game developer, baik bagian frontend, maupun backend.
+                    </p>
+                    
+                    <h2 class="section-title">Ayo tukar Kontak</h2>
+                    <p>Aku selalu siap dihubungi untuk berkolaborasi, diskusi proyek, belajar bersama atau hanya sekedar menyapa.
+                        Silahkan menghubungiku melalui salah satu kontak ku.
+                    </p>
+                    
+                    <div class="social-container">
+                        <a href="https://wa.me/6285765242895" target="_blank" class="social-btn whatsapp">
+                            <i class="fab fa-whatsapp"></i><span class="social-text">WhatsApp</span>
+                        </a>
+                        <a href="mailto:firjaksp@gmail.com" class="social-btn email">
+                            <i class="fas fa-envelope"></i><span class="social-text">Email</span>
+                        </a>
+                        <a href="https://github.com/username-mu" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i><span class="social-text">GitHub</span>
+                        </a>
+                        <a href="https://www.instagram.com/gonpachiro_k?igsh=d25ydGVzMmo1OGFy" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i><span class="social-text">Instagram</span>
+                        </a>
+                        <a href="https://www.tiktok.com/@remmy__bell?_r=1&_t=ZS-971HLADMUb7" target="_blank" class="social-btn tiktok">
+                            <i class="fab fa-tiktok"></i><span class="social-text">TikTok</span>
+                        </a>
+                    </div>
+                </div> 
+            </div> 
+        </section>
+
+        <section id="education">
+            <h2 class="section-title">Riwayat Pendidikan</h2>
+            <p class="education-subtitle">Saat ini aku sedang belajar di Universitas Samudra yang terletak di Kota Langsa, Aceh.
+                Sebelumnya aku juga pernah belajar di salah satu ponpes ternama di Aceh, yaitu Mudi Mesra Samalanga.</p>
+            
+            <div class="education-container">
+                <a href="https://www.mudimesra.com/" target="_blank" class="edu-logo-card">
+                    <img src="/aset/MUDI.jpg" alt="Logo Institusi Pendidikan">
+                    <div class="edu-tooltip">Mudi Mesra</div>
+                </a>
+                <a href="https://unsam.ac.id/" target="_blank" class="edu-logo-card">
+                    <img src="/aset/Logo_Universitas_Samudra.png" alt="Logo Institusi Pendidikan">
+                    <div class="edu-tooltip">Universitas Samudra</div>
+                </a>
+            </div> 
+        </section> 
+        
+        <section id="skill">
+            <h2 class="section-title">Skills</h2>
+            <p class="skill-subtitle">Beberapa hal yang sudah aku kuasai selama menjadi mahasiswa</p>
+            
+            <div class="skill-container">
+                <div class="skill-logo-card">
+                    <i class="fab fa-html5"></i>
+                    <div class="skill-tooltip">HTML5</div>
+                </div>
+                <div class="skill-logo-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <div class="skill-tooltip">CSS3</div>
+                </div>
+                <div class="skill-logo-card">
+                    <i class="fas fa-comments"></i>
+                    <div class="skill-tooltip">Communication</div>
+                </div>
+                <div class="skill-logo-card">
+                    <i class="fas fa-robot"></i>
+                    <div class="skill-tooltip">Vibe Coding</div>
+                </div>
+                <div class="skill-logo-card">
+                    <i class="fas fa-gamepad"></i>
+                    <div class="skill-tooltip">Gamer</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <p class="project-subtitle">Project project yang berhasil kukembangkan selama berkuliah.</p>
+            
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Personal Portfolio</h3>
+                    <p>Membuat sebuah website portofolio yang memudahkan orang mengenal diriku, menggunakan HTML, CSS, dan JavaScript</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <a href="#" target="_blank" class="project-card clickable-card">
+                    <div class="project-icon"><i class="fas fa-bus"></i></div>
+                    <h3>Order Ticket Bus <i class="fas fa-external-link-alt"></i></h3>
+                    <p>Website yang mempermudah customer bus untuk memesan tiket bus.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>GIT</span>
+                        <span>Web Dev</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="contact-subtitle">Pilih salah satu kartu di bawah untuk terhubung langsung denganku melalui platform favoritmu!</p>
+
+            <div class="carousel-viewport">
+                <div class="carousel-container" id="contactCarousel">
+                    
+                    <div class="carousel-card whatsapp active">
+                        <div class="card-ide-header"><span></span><span></span><span></span></div>
+                        <div class="card-icon"><i class="fab fa-whatsapp"></i></div>
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/6285765242895" target="_blank" class="card-link-btn">Chat</a>
+                    </div>
+
+                    <div class="carousel-card email next">
+                        <div class="card-ide-header"><span></span><span></span><span></span></div>
+                        <div class="card-icon"><i class="fas fa-envelope"></i></div>
+                        <h3>Email</h3>
+                        <a href="mailto:firjaksp@gmail.com" class="card-link-btn">Mail</a>
+                    </div>
+
+                    <div class="carousel-card github hide">
+                        <div class="card-ide-header"><span></span><span></span><span></span></div>
+                        <div class="card-icon"><i class="fab fa-github"></i></div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/username-mu" target="_blank" class="card-link-btn">Open</a>
+                    </div>
+
+                    <div class="carousel-card instagram hide">
+                        <div class="card-ide-header"><span></span><span></span><span></span></div>
+                        <div class="card-icon"><i class="fab fa-instagram"></i></div>
+                        <h3>Instagram</h3>
+                        <a href="https://www.instagram.com/gonpachiro_k?igsh=d25ydGVzMmo1OGFy" target="_blank" class="card-link-btn">Follow</a>
+                    </div>
+
+                    <div class="carousel-card tiktok prev">
+                        <div class="card-ide-header"><span></span><span></span><span></span></div>
+                        <div class="card-icon"><i class="fab fa-tiktok"></i></div>
+                        <h3>TikTok</h3>
+                        <a href="https://www.tiktok.com/@remmy__bell?_r=1&_t=ZS-971HLADMUb7" target="_blank" class="card-link-btn">Follow</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carousel-controls">
+                <button id="prevBtn" class="control-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                <button id="nextBtn" class="control-btn">Next <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </section>
+        
+    </div>
+
+    <script>
+        const toggleBtn = document.getElementById('toggleBtn');
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('overlay');
+        const mainContent = document.getElementById('mainContent');
+        const navLinks = document.querySelectorAll('.sidebar ul li a');
+        const sections = document.querySelectorAll('.main-content section');
+        
+        function toggleNavbar() {
+            sidebar.classList.toggle('active');
+            overlay.classList.toggle('active');
+            mainContent.classList.toggle('sidebar-active');
+        }
+
+        toggleBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleNavbar();
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (sidebar.classList.contains('active')) {
+                    toggleNavbar();
+                }
+            });
+        });
+
+        window.addEventListener('click', (e) => {
+            if (sidebar.classList.contains('active')) {
+                if (!sidebar.contains(e.target) && !toggleBtn.contains(e.target)) {
+                    toggleNavbar();
+                }
+            }
+        });
+
+        const carouselCards = document.querySelectorAll('.carousel-card');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        
+        let currentIndex = 0; 
+        const totalCards = carouselCards.length;
+
+        function updateCarousel() {
+            carouselCards.forEach((card, i) => {
+                card.classList.remove('active', 'next', 'prev', 'hide');
+
+                if (i === currentIndex) {
+                    card.classList.add('active');
+                } else if (i === (currentIndex + 1) % totalCards) {
+                    card.classList.add('next');
+                } else if (i === (currentIndex - 1 + totalCards) % totalCards) {
+                    card.classList.add('prev');
+                } else {
+                    card.classList.add('hide');
+                }
+            });
+        }
+
+        carouselCards.forEach((card, i) => {
+            card.addEventListener('mouseenter', () => {
+                if (card.classList.contains('next')) {
+                    currentIndex = (currentIndex + 1) % totalCards;
+                    updateCarousel();
+                } else if (card.classList.contains('prev')) {
+                    currentIndex = (currentIndex - 1 + totalCards) % totalCards;
+                    updateCarousel();
+                }
+            });
+        });
+
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % totalCards;
+            updateCarousel();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + totalCards) % totalCards;
+            updateCarousel();
+        });
+
+        function changeActiveMenu() {
+            let scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+            sections.forEach(section => {
+                if (scrollPosition >= (section.offsetTop - 150) && 
+                    scrollPosition < (section.offsetTop + section.offsetHeight - 150)) {
+                    
+                    const currentId = section.getAttribute('id');
+                    
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${currentId}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }
+
+        window.addEventListener('scroll', changeActiveMenu);
+        document.addEventListener('DOMContentLoaded', changeActiveMenu);
+    </script>
+
+</body>
+</html>
